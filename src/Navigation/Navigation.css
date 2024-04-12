@@ -1,0 +1,23 @@
+.mainNav
+{
+    display: flex;
+    height: 50px;
+    margin: auto;
+    transition: 300ms;
+}
+.mainNav a
+{
+    padding: 10px;
+    margin: auto;
+    text-decoration: none;
+    font-weight: 500;
+    opacity: .5;
+    transition: 300ms;
+    overflow: none;
+}
+.mainNav a:hover
+{
+    opacity: 1;
+    border-bottom: 4px solid blueviolet;
+    color: red;
+}

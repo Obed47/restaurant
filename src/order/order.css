@@ -1,0 +1,38 @@
+.mainOrder
+{
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    background-image: url(../Foods/pexels-karthik-reddy-397913.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mainOrder .fields
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+.mainOrder .fields input,select
+{
+    width: 70%;
+    height: 4rem;
+    padding-top: 5px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.356);
+    border: none;
+    outline: none;
+}
+
+.mainOrder .fields .names
+{
+    display: flex;
+}
+.mainOrder .fields .names input
+{
+    width: 30%;
+}

@@ -1,0 +1,74 @@
+*
+{
+    padding: 0;
+    margin: 0;
+
+}
+.mainWelcome
+{
+    width: 100%;
+    height: 32.4rem;
+    background-image: url(../Foods/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    align-content: center;
+    backdrop-filter:blur(0.7%);
+}
+.mainWelcome .texts
+{
+    margin: auto;
+    padding: auto;
+    width: 50%;
+    text-align: center;
+}
+.mainWelcome .title 
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 50px;
+    color: rgba(127, 255, 212, 0.733);
+    user-select: none;
+
+}
+.mainWelcome .texts p
+{
+    
+    width: 80%;
+    margin: auto;
+    align-content: center;
+    margin-top: 1rem;
+    color: rgba(255, 228, 196, 0.788);
+}
+
+.mainWelcome .texts button
+{
+    margin-top: 1rem;
+    width: 10rem;
+    height: 3rem;
+    background-color: rgba(127, 255, 212, 0.705);
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 900;
+    outline: none;
+    border-radius: 5px;
+    transition: 500ms;
+}
+.mainWelcome .texts button:hover{
+    background-color: aqua;
+    cursor: pointer;
+    border: 3px solid aquamarine;
+}
+
+@keyframes animate
+{
+    from
+    {
+        
+    }
+    to 
+    {
+       
+    }
+}
