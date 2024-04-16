@@ -5,7 +5,7 @@ export default function Header()
     return(
         <div className="mainHeader">
              <Link to="/">
-            <div className="title">Apeti<span style={{color:'red'}}>Max</span></div>
+            <div className="title">Apeti<span style={{color:'red'}}>Max</span> <span id='bug' className='fa fa-cutlery'></span></div>
             </Link>
             <div className="links">
                 <Link to="/">Home</Link>

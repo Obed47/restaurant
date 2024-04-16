@@ -22,12 +22,40 @@
     font-weight: 700;
     cursor: pointer;
 }
+.mainHeader .title #bug
+{
+    animation: spin 10s linear infinite;
+    color: aqua;
+    padding: 10px;
+    font-size: 20px;
+}
+.mainHeader .title #bug:hover
+{
+    color: red;
+}
 .mainHeader .links a
 {
     padding: 15px;
     text-decoration: none;
     font-weight: 400;
     color: white;
+    transition: ease-in-out 300ms;
 
 
+}
+.mainHeader .links a:hover
+{
+    color: red;
+    border-bottom:2px solid red;
+    }
+
+@keyframes spin
+{
+    from {
+        rotate: 0deg;
+    }   
+    to 
+    {
+        rotate: 360deg;
+    }
 }

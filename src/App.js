@@ -6,14 +6,20 @@ import Order from './order/order';
 import AboutPage from './About/about';
 import ContactPage from './Contact/contact';
 import Welcome from './Welcome./Welcome';
-import { BrowserRouter,Routes,Route,Link } from 'react-router-dom';
+import { useEffect } from 'react';
+import { Routes,Route } from 'react-router-dom';
 function App() {
-  //routing working here
+  useEffect(()=>
+  {
+    //useEffect hook used to print this console.log. 
+      console.log("Hello");
+  })
   return (
     <div className="App">
       <Header/>
+      {/* routing here. Take note */}
         <Routes>
-        <Route path='/' element={<Welcome/>}/>
+          <Route path='/' element={<Welcome/>}/>
           <Route path='order' element={<Order/>}/>
           <Route path='contact' element={<ContactPage/>}/>
           <Route path='about' element={<AboutPage/>}/>

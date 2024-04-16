@@ -1,0 +1,33 @@
+.mainContact
+{
+    width: 60%;
+    align-content: center;
+    height: 32.4rem;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    transition:300ms ease-in-out;
+    user-select: none;
+    
+}
+.mainContact h1
+{
+    padding: 10px;
+    font-size: 40px;
+}
+.mainContact .links a
+{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 20px;
+    color: aquamarine;
+  
+}
+.mainContact .links a:hover
+{
+    transform: scale(1.2);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: aqua;
+    transition:300ms ease-in-out;
+
+}

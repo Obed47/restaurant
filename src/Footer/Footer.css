@@ -1,0 +1,26 @@
+.mainFooter
+{
+    margin-top: 2rem;
+    height:10rem;
+    width: 100%;
+    background-color: rgb(78, 76, 76);
+    align-content: center;
+}
+.mainFooter .links a
+{
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 26px;
+    color: white;
+    animation: rotate 7s linear infinite;
+}
+@keyframes rotate
+{
+    from
+    {
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}

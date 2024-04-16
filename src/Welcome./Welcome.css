@@ -51,8 +51,9 @@
     font-size: 15px;
     color: white;
     font-weight: 900;
-    outline: none;
+    outline: none; transition: 500ms;
     border-radius: 5px;
+    animation:chcolor linear infinite 1000ms;
     transition: 500ms;
 }
 .mainWelcome .texts button:hover{
@@ -60,15 +61,12 @@
     cursor: pointer;
     border: 3px solid aquamarine;
 }
-
-@keyframes animate
+@keyframes chcolor
 {
-    from
-    {
-        
+    from{
+        color: white;
     }
-    to 
-    {
-       
+    to{
+        color: rgb(197, 189, 189);
     }
 }

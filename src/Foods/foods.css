@@ -1,7 +1,89 @@
-.foods
+.main .aFood
 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    width: 50rem;
+    display: flex;  
     margin: auto;
+    justify-content: space-evenly;
+    text-decoration: none;
+
+}
+
+.main .aFood .middle,.right
+{
+    width: 15rem;
+    height: 15rem;
+    background-color: aquamarine;
+    border-radius: 2rem;
+}
+.aFood .Sfood a
+{
+    text-decoration: none; 
+    color: rgba(0, 0, 0, 0.795);
+
+}
+
+.food
+{
+    height: 15rem;
+    text-align: center;
+    align-content: center;
+    width: 10rem;
+    margin-top: 10px;
+    border: 1px solid rgba(0, 255, 255, 0.712);
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+.food img{
+    height: 65%;
+    width: 100%;
+}
+.food button
+{
+    width: 80%;
+    height: 1.5rem;
+    margin: auto;
+    cursor: pointer;
+}
+.mainCat .buttons
+{
+    transition: 300ms;
+    animation: ease-in-out;
+    text-align: center;
+    
+   
+}
+.mainCat .buttons button
+{
+    animation: ease-in-out;
+    width: 10rem;
+    height: 3rem;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    background-color: aquamarine;
+    font-weight: 500;
+   
+}
+.mainCat .buttons button:focus{
+   background-color: blue;
+    color: #fff;
+}
+/* unused animation here */
+@keyframes animate
+{
+    from{
+        background-color: rgb(100, 22, 202);
+    }
+    to{
+        background-color: aqua;
+        color: black;
+    }
+}
+.main h2
+{
+    text-align: center;
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.555);
 }
