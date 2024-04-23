@@ -14,20 +14,21 @@
 {
     padding: 10px;
     font-size: 40px;
+    font-family: poppins;
 }
 .mainContact .links a
 {
     font-size: 30px;
     text-decoration: none;
     padding: 20px;
-    color: aquamarine;
+    color: rgba(0, 0, 255, 0.562);
   
 }
 .mainContact .links a:hover
 {
     transform: scale(1.2);
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-    color: aqua;
+    color: blue;
     transition:300ms ease-in-out;
 
 }

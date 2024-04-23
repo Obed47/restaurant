@@ -89,17 +89,19 @@ const Categories=()=>{
                     return(
                         <div className="aFood">
                         <div className="Sfood">
-                          <Link to={'/'}><Food name={F.name} price={F.price} img={F.image}/></Link>
+                          <Link to={'/error'}><Food name={F.name} price={F.price} img={F.image}/></Link>
                         </div>
                         <div className="middle"></div>
                         <div className="right"></div>
                         </div>
                     )
-                })}
+                })}<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
              
             </div>
 
-            
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
         </div>
     )
 }

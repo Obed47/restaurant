@@ -8,10 +8,13 @@ import ContactPage from './Contact/contact';
 import Welcome from './Welcome./Welcome';
 import { useEffect } from 'react';
 import { Routes,Route } from 'react-router-dom';
+import NotFound from './notFound';
+
 function App() {
   useEffect(()=>
   {
     //useEffect hook used to print this console.log. 
+    //with no dependency array means it runs on every re-render
       console.log("Hello");
   })
   return (
@@ -25,6 +28,7 @@ function App() {
           <Route path='about' element={<AboutPage/>}/>
           <Route path='foods' element={<Foods/>}/>
           <Route path='navigation' element={<Navigation/>}/>
+          <Route path='error' element={<NotFound/>}/>
         </Routes>
     </div>
   );

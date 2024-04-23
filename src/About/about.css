@@ -13,6 +13,7 @@
 }
 .mainAbout .tit h1{
     color: rgb(89, 1, 190);
+    font-family: poppins;
 }
 .mainAbout .logo a
 {
@@ -20,6 +21,7 @@
     text-decoration: none;
     padding: 10px;
     animation: spin 6s linear infinite;
+    
 }
 
 @keyframes spin
@@ -51,4 +53,8 @@
     margin-top: 2rem;
     font-size: 34px;
     color: rgb(49, 49, 49);
+}
+.mainAbout .tit a
+{
+    text-decoration: none;
 }

@@ -16,7 +16,7 @@ export default function AboutPage()
                    <div className="logo">
                     <Link className='fa fa-bug'></Link>
                    </div>
-                   <Link to={'/foods'}>Back To Home</Link>
+                   <Link to={'/foods'}> Back Home </Link>
                    </div>
                    <img src={image} alt=",," />
                    <h2>Services</h2>
